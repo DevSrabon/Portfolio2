@@ -54,13 +54,13 @@ const About = () => {
 			</motion.p>
 			<motion.div variants={fadeIn("left", "", 0.2, 1)}>
 				<a
-					className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer "
+					className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-secondary cursor-pointer "
 					href="resume.pdf"
 					download="resume.pdf"
 					id="resume">
 					Download Resume
 				</a>
-				<div className="grid grid-flow-col gap-4 mt-5 w-10 ">
+				<div className="grid grid-flow-col gap-4 mt-7 w-10 ml-10  ">
 					<a href="https://www.facebook.com/srabon.barca/">
 						<FaFacebookF className="w-7 h-7 hover:scale-125" />
 					</a>
