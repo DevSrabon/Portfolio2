@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"stack": "MERN Stack",
+		"title": "Skill Judge",
+		"rating": 100,
+		"img": "laptop-bazar-83d41.web.app_.png",
+		"website": "https://skill-judge.vercel.app/",
+		"githubClient": "https://github.com/DevSrabon/Skill-judge-client",
+		"githubServer": "https://github.com/Amibiplob/Skill-judge-server",
+		"ss1": "laptop-bazar-83d41.web.app_ (1).png",
+		"ss2": "laptop-bazar-83d41.web.app_ (2).png",
+		"ss3": "laptop-bazar-83d41.web.app_ (3).png",
+		"detail1": " Users can improve their skills by challenging problem solving from our website.",
+		"details2": "Users also play quizzes on our website.",
+		"details3": " Users can ask any questions, comment on a question, also likes and unlike questions by using community forum on our website.",
+		"details4": "Implement payment method and also authorize API from the backend.",
+		"technologies": "TypeScript, React.js, Express.js, REST API, JWT, Rest API, Tailwind CSS, Daisy UI, Axios,React Hook form, Stripe, Firebase Auth, Motion JS etc."
+	},
+	{
+		"id": 2,
+		"stack": "MERN Stack",
+		"title": "Laptop Resale Market",
+		"rating": 100,
+		"img": "laptop-bazar-83d41.web.app_.png",
+		"website": "https://laptop-bazar-83d41.web.app/",
+		"githubClient": "https://github.com/DevSrabon/Resale-Laptop-Bazar",
+		"githubServer": "https://github.com/DevSrabon/Laptop-Resale-Bazar-Server",
+		"ss1": "laptop-bazar-83d41.web.app_ (1).png",
+		"ss2": "laptop-bazar-83d41.web.app_ (2).png",
+		"ss3": "laptop-bazar-83d41.web.app_ (3).png",
+		"detail1": " Users can create different roles by registration /Social login.",
+		"details2": "Different Dashboards for other role users.",
+		"details3": "Add/delete/upload images/ Post Products/ Order Products and upload them to the database. ",
+		"details4": "Implement payment method and also authorize API from the backend.",
+		"technologies": "Javascript, React.js, Express.js, REST API, JWT, Rest API, Tailwind CSS, Daisy UI, Axios,React Hook form, Stripe, Firebase Auth, etc."
+	},
+
+	{
+		"id": 3,
+		"stack": "MERN Stack",
+		"title": "Doctors Services",
+		"rating": 80,
+		"img": "doc-service-949fd.web.app_.png",
+		"website": "https://doc-service-949fd.web.app_.png",
+		"githubClient": "https://github.com/DevSrabon/Doctors-Services-Client",
+		"githubServer": "https://github.com/DevSrabon/Doctors-Services-Server-Side",
+		"ss1": "doc-service-949fd.web.app_.png",
+		"ss2": "doc-service-949fd.web.app_services (1).png",
+		"ss3": "doc-service-949fd.web.app_services.png",
+		"detail1": " A single-page full-stack application for doctors' service providers.",
+		"details2": "Users can post, delete and update their reviews.",
+		"details3": "Firebase authentication is used for user authentication and user authorization. ",
+		"technologies": "Javascript, React.js, Express.js, MongoDB, REST API, Tailwind CSS, Firebase Auth."
+	}
+]

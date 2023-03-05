@@ -1,32 +1,13 @@
-import { BrowserRouter } from "react-router-dom";
-import {
-	Navbar,
-	Hero,
-	About,
-	Contact,
-	Tech,
-	Works,
-	Feedbacks,
-	StarsCanvas,
-} from "./components";
+import { Routes, Route } from "react-router-dom";
+import Main from "./assets/layout/Main";
+import Work from "./assets/layout/Work";
+import WorksModal from "./components/Details";
 const App = () => {
 	return (
-		<BrowserRouter>
-			<div className="relative z-0 bg-primary">
-				<div className="bg-hero-pattern bg0cover bg-no-repeat bg-center">
-					<Navbar />
-					<Hero />
-				</div>
-				<About />
-				<Tech />
-				<Works />
-				<Feedbacks />
-				<div className="relative z-0">
-					<Contact />
-					<StarsCanvas />
-				</div>
-			</div>
-		</BrowserRouter>
+		<Routes>
+			<Route path="/" element={<Main></Main>} />;
+			<Route path="/:id" element={<Work></Work>} />;
+		</Routes>
 	);
 };
 

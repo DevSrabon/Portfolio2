@@ -15,9 +15,9 @@ import {
 	git,
 	figma,
 	docker,
-	carrent,
-	jobit,
-	tripguide,
+	skillJudge,
+	laptopBazar,
+	docService,
 	threejs,
 } from "../assets";
 
@@ -27,8 +27,8 @@ export const navLinks = [
 		title: "About",
 	},
 	{
-		id: "work",
-		title: "Work",
+		id: "projects",
+		title: "Projects",
 	},
 	{
 		id: "contact",
@@ -134,9 +134,9 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Skill Judge -Team Project",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"Problem solving platform that allows users to challenge problem, solve problem, and can play quizzes.",
 		tags: [
 			{
 				name: "react",
@@ -150,35 +150,50 @@ const projects = [
 				name: "tailwind",
 				color: "pink-text-gradient",
 			},
+			{
+				name: "TypeScript",
+				color: "green-text-gradient",
+			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: skillJudge,
+		source_code_link: "https://github.com/DevSrabon/Skill-judge-client",
+		server_code_link: "https://github.com/Amibiplob/Skill-judge-server",
+
+		live_site_link: "https://skill-judge.vercel.app/",
 	},
 	{
-		name: "Job IT",
+		name: "Laptop Bazar",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"Web application that enables users to search for buy and sell laptops, add new laptops, and delete laptops and report a laptop.",
+
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
+				name: "mongodb",
+				color: "pink-text-gradient",
+			},
+			{
 				name: "restapi",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "tailwind",
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: laptopBazar,
+		source_code_link: "https://github.com/DevSrabon/Resale-Laptop-Bazar",
+		server_code_link: "https://github.com/DevSrabon/Laptop-Resale-Bazar-Server",
+
+		live_site_link: "https://resale-laptop-bazar.vercel.app/",
 	},
 	{
-		name: "Trip Guide",
+		name: "Doctors Service",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"Web application that allows users to search for doctors, add new doctors, review doctors and admin can delete doctors ",
 		tags: [
 			{
 				name: "nextjs",
@@ -193,8 +208,12 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: docService,
+		source_code_link: "https://github.com/DevSrabon/Doctors-Services-Client",
+		server_code_link:
+			"https://github.com/DevSrabon/Doctors-Services-Server-Side",
+
+		live_site_link: "https://doc-service-949fd.web.app/",
 	},
 ];
 
