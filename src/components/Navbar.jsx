@@ -24,16 +24,7 @@ const Navbar = () => {
 						<span className="sm:block hidden">|&nbsp;Portfolio</span>
 					</p>
 				</Link>
-				<ul className="list-none hidden sm:flex flex-row gap-10">
-					<Link
-						to={"/"}
-						className="flex items-center gap-2 text-secondary focus:text-white hover:text-white text-[18px] font-medium cursor-pointer"
-						onClick={() => {
-							setActive("");
-							window.scrollTo(0, 0);
-						}}>
-						Home
-					</Link>
+				<ul className="list-none hidden sm:flex flex-row gap-5">
 					{navLinks.map((link) => (
 						<li
 							key={link.id}
