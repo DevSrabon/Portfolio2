@@ -11,9 +11,9 @@
 		"ss1": "laptop-bazar-83d41.web.app_ (1).png",
 		"ss2": "laptop-bazar-83d41.web.app_ (2).png",
 		"ss3": "laptop-bazar-83d41.web.app_ (3).png",
-		"detail1": " Users can improve their skills by challenging problem solving from our website.",
-		"details2": "Users also play quizzes on our website.",
-		"details3": " Users can ask any questions, comment on a question, also likes and unlike questions by using community forum on our website.",
+		"detail1": "Our platform offers a vast library of challenges, each challenge is designed to be challenging yet achievable, allowing programmers to push themselves and learn new concepts along the way.",
+		"details2": "It has a quiz section that provides a fun and interactive way for programmers to test their knowledge and understanding of different coding concepts.",
+		"details3": "Our community forum provides a platform for programmers to learn from one another and grow together.",
 		"details4": "Implement payment method and also authorize API from the backend.",
 		"technologies": "TypeScript, React.js, Express.js, REST API, JWT, Rest API, Tailwind CSS, Daisy UI, Axios,React Hook form, Stripe, Firebase Auth, Motion JS etc."
 	},

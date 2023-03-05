@@ -1,7 +1,8 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
-
+import { FaFacebookF, FaLinkedin } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -43,14 +44,34 @@ const About = () => {
 
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
-				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-				I'm a skilled web developer with 8 Month learning experience in JavaScript and
-				TypeScript, and expertise in frameworks like React, Node.js, and
-				Three.js. I'm a quick learner and collaborate closely with clients to
-				create efficient, scalable, and user-friendly solutions that solve
-				real-world problems. Let's work together to bring your ideas to life!
+				className="my-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+				I'm a skilled web developer with 8 Month learning experience in
+				JavaScript and TypeScript, and expertise in frameworks like React,
+				Node.js, and Three.js. I'm a quick learner and collaborate closely with
+				clients to create efficient, scalable, and user-friendly solutions that
+				solve real-world problems. Let's work together to bring your ideas to
+				life!
 			</motion.p>
-
+			<motion.div variants={fadeIn("left", "", 0.2, 1)}>
+				<a
+					className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer "
+					href="resume.pdf"
+					download="resume.pdf"
+					id="resume">
+					Download Resume
+				</a>
+				<div className="grid grid-flow-col gap-4 mt-5 w-10 ">
+					<a href="https://www.facebook.com/srabon.barca/">
+						<FaFacebookF className="w-7 h-7 hover:scale-125" />
+					</a>
+					<a href="https://github.com/DevSrabon">
+						<AiFillGithub className="w-7 h-7 hover:scale-125" />
+					</a>
+					<a href="https://www.linkedin.com/in/srabon-barua/">
+						<FaLinkedin className="w-7 h-7 hover:scale-125" />
+					</a>
+				</div>
+			</motion.div>
 			<div className="mt-10 flex flex-wrap gap-10">
 				{services.map((service, index) => (
 					<ServiceCard key={service.title} index={index} {...service} />
@@ -60,4 +81,4 @@ const About = () => {
 	);
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(About, "resume");
